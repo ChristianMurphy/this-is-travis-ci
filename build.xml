@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<project name="squares" default="main" basedir=".">
+    <target name="compile">
+        <javac src="Main.java"/>
+    </target>
+    <target name="run">
+        <java classname="Main"/>
+    </target>
+</project>
