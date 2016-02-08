@@ -4,3 +4,6 @@ jdk: oraclejdk8
 script:
     - ant compile
     - ant run
+
+notifications:
+    slack: cassess:K4M1bpG2rOutksyKFDjYQGSB
